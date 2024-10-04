@@ -2,10 +2,11 @@
 #Oct 2 2024
 #Caesar Cipher
 
+#encrypt
     #variables
 alphabet = 'abcdefghijklmonpqrstuvwxyz'
 new_message =''
-#encrypt
+
 user_message = input('Enter your secret message: ').lower()
 key = int(input('Enter a key: '))
 for character in user_message:
@@ -17,7 +18,9 @@ for character in user_message:
     else:
         new_message+= character
 print('Your new message is ' + new_message)
+
 #decrypt
+    #variables
 alphabet = 'abcdefghijklmonpqrstuvwxyz'
 new_message =''
 
